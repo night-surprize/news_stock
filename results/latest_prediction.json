@@ -1,0 +1,26 @@
+[
+  {
+    "news_text": "Сбербанк сообщил о росте чистой прибыли",
+    "source": "Ручной ввод",
+    "published_at_msk": "2026-11-05T12:30:00+03:00",
+    "company": "Сбербанк",
+    "ticker": "SBER",
+    "sector": "banks",
+    "match_reason": "explicit",
+    "event_type": "financial_results",
+    "sentiment": "positive",
+    "forecast_1d_pct": 0.041,
+    "interval80_low_1d_pct": -2.399,
+    "interval80_high_1d_pct": 1.993,
+    "positive_probability_1d": 0.508,
+    "forecast_3d_pct": 0.23,
+    "interval80_low_3d_pct": -3.704,
+    "interval80_high_3d_pct": 3.484,
+    "positive_probability_3d": 0.531,
+    "forecast_5d_pct": 0.529,
+    "interval80_low_5d_pct": -6.102,
+    "interval80_high_5d_pct": 3.852,
+    "positive_probability_5d": 0.652,
+    "forecast_type": "abnormal return vs IMOEX; market-neutral price-change scenario"
+  }
+]

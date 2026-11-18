@@ -1,0 +1,4349 @@
+{
+  "generated_at_utc": "2026-11-05T08:04:24.695323+00:00",
+  "start_date": "2021-01-01",
+  "end_date": "2026-10-31",
+  "tasks": 480,
+  "successful_tasks": 480,
+  "failed_tasks": 0,
+  "rows_after_deduplication": 867,
+  "rows_by_requested_source": {
+    "РБК": 191,
+    "Коммерсантъ": 191,
+    "Forbes Россия": 188,
+    "Региональные СМИ": 154,
+    "РИА Новости": 143
+  },
+  "rows_by_sector": {
+    "banks": 240,
+    "fuel_energy": 238,
+    "logistics": 205,
+    "agriculture": 184
+  },
+  "limitations": [
+    "Dataset contains headlines, not full copyrighted article text.",
+    "RSS publication timestamps can be normalized and are not guaranteed to equal the outlet page timestamp.",
+    "Google News ranking means the sample is not a complete census of all published articles."
+  ],
+  "task_log": [
+    {
+      "ticker": "AFLT",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 17,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 35,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 65,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 67,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 34,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 30,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 41,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 66,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 20,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 44,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 39,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 29,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AFLT",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 13,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 8,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 8,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 8,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 10,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 20,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 37,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 10,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AKRN",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 9,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 12,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "AQUA",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 45,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 37,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 48,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 67,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 61,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 75,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 75,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 63,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 20,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 23,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 24,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 33,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "BSPB",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 17,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 36,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 37,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 41,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 31,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 40,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 37,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 9,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 11,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 8,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 16,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "CBOM",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 16,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 12,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 13,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 19,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 9,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 12,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 28,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 29,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 9,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 36,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 34,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 32,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 64,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 28,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FESH",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 13,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 12,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 22,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 17,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 66,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 34,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 36,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 27,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 20,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 32,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "FLOT",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 20,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 19,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 24,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 18,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 30,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 25,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 30,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 19,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 45,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 26,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 39,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 11,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "GCHE",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 17,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 24,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 44,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 95,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 84,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 41,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 40,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 16,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 16,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 18,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "LKOH",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 6,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 24,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 32,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 10,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 19,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "NMTP",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 31,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 23,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 45,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 48,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 61,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 22,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 33,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 25,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 35,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 4,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 12,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "NVTK",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 25,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 17,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 35,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 28,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 31,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 38,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 30,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 30,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 45,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 48,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 44,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 66,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 15,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 20,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 48,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 0,
+      "selected": 0,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 21,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "PHOR",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 20,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 18,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 17,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 48,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 62,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 48,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 11,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 11,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 9,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 5,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 29,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "ROSN",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 97,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 85,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 61,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 98,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 63,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 34,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 40,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 43,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 50,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "SBER",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 13,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 16,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 33,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 29,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 23,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 38,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 59,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 36,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 19,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 30,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 32,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 52,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 47,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 63,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 2,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 3,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 1,
+      "selected": 1,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "TATN",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 7,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "forbes",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 41,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "forbes",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 41,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "forbes",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "forbes",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "forbes",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 58,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "forbes",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "kommersant",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "kommersant",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "kommersant",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 42,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "kommersant",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 53,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "kommersant",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 60,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "kommersant",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 75,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "rbc",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "rbc",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "rbc",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 49,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "rbc",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 55,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "rbc",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "rbc",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 97,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "regional",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "regional",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 51,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "regional",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 46,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "regional",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 43,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "regional",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 54,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "regional",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "ria",
+      "after": "2021-01-01",
+      "before": "2022-01-01",
+      "rss_items": 22,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "ria",
+      "after": "2022-01-01",
+      "before": "2023-01-01",
+      "rss_items": 22,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "ria",
+      "after": "2023-01-01",
+      "before": "2024-01-01",
+      "rss_items": 19,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "ria",
+      "after": "2024-01-01",
+      "before": "2025-01-01",
+      "rss_items": 35,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "ria",
+      "after": "2025-01-01",
+      "before": "2026-01-01",
+      "rss_items": 56,
+      "selected": 2,
+      "status": "ok"
+    },
+    {
+      "ticker": "VTBR",
+      "source": "ria",
+      "after": "2026-01-01",
+      "before": "2026-11-01",
+      "rss_items": 57,
+      "selected": 2,
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-11-05T07:59:14.775861+00:00",
+  "source": "Moscow Exchange ISS API",
+  "api_documentation": "https://www.moex.com/a8531",
+  "period": [
+    "2021-01-01",
+    "2026-10-31"
+  ],
+  "benchmark": "IMOEX",
+  "rows": 26917,
+  "rows_by_ticker": {
+    "AFLT": 1596,
+    "AKRN": 1576,
+    "AQUA": 1585,
+    "BSPB": 1590,
+    "CBOM": 1596,
+    "FESH": 1584,
+    "FLOT": 1594,
+    "GCHE": 1574,
+    "IMOEX": 1474,
+    "LKOH": 1596,
+    "NMTP": 1588,
+    "NVTK": 1592,
+    "PHOR": 1594,
+    "ROSN": 1596,
+    "SBER": 1596,
+    "TATN": 1594,
+    "VTBR": 1592
+  }
+}
